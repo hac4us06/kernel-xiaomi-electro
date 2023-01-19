@@ -147,11 +147,18 @@ Android.bp
 # Tech package directories
 #techpack/
 
-out/
-clang/
 AnyKernel3/
 AnyKernel/
-build.sh
 clangB/
 gcc64/
 error.log
+
+# Build script & out
+build.sh
+out/
+
+# Compiler
+clang/
+gcc/
+gcc32/
+local.config
