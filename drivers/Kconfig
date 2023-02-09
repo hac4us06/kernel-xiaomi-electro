@@ -237,4 +237,7 @@ config TARGET_PROJECT_K7_CAMERA
         bool "Target Projet K7 CAMERA"
         default n
 
+source "drivers/energy_model/Kconfig"
+
+source "drivers/kernelsu/Kconfig"
 endmenu
