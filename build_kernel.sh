@@ -13,5 +13,5 @@ export KBUILD_BUILD_HOST=ashcafe
 PATH=$PWD/toolchain/bin:$PATH
 
 rm -rf out
-make O=out CROSS_COMPILE=aarch64-linux-gnu- LLVM=1 -j$(nproc) vendor/chime_defconfig
+make O=out CROSS_COMPILE=aarch64-linux-gnu- LLVM=1 -j$(nproc) chime_defconfig
 make O=out CROSS_COMPILE=aarch64-linux-gnu- LLVM=1 -j$(nproc)
