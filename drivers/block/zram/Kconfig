@@ -56,7 +56,7 @@ config ZRAM_DEDUP
 
 choice
 	prompt "Default zram compressor"
-	default ZRAM_DEF_COMP_LZ4
+	default ZRAM_DEF_COMP_ZSTD
 	depends on ZRAM
 
 config ZRAM_DEF_COMP_ZSTD
